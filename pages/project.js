@@ -21,7 +21,7 @@ export default function Project() {
    <h3>{`I made these websites 👇`}</h3>
    <div className={styles.projects}>
     <div className={styles.project}>
-     <Image src={bookshopimg} alt='bookshop' className={styles.projectpng} width={500} />
+     <a href='https://nextjs-bookshop.vercel.app/ ' target="_blank"><Image src={bookshopimg} alt='bookshop' className={styles.projectpng} width={500} /></a>
      <div className={styles.projectText}>
       <div className={styles.Topic}>{`Online BookShop📖`}</div>
       <p className={styles.paragraph}>A Online Bookshop website that allows users to buy their favourite book online.
@@ -37,10 +37,11 @@ export default function Project() {
       </p>
       <Image src={nextjspng} alt='NextJs' className={styles.techStackLogo} title="NextJS" />
      </div>
-     <Image src={todolist} alt='todolist' width={500} height='fill' />
+     <a href='https://nextjs-todolist-seven.vercel.app/ ' target="_blank"><Image src={todolist} alt='todolist' width={500} height='fill' /></a>
+
     </div>
     <div className={styles.project}>
-     <Image src={weatherpng} alt='todolist' width={500} height='fill' />
+     <a href='https://fung673.github.io/weatherapp/' target="_blank"><Image src={weatherpng} alt='todolist' width={500} height='fill' /></a>
      <div className={styles.projectText}>
       <div className={styles.Topic}>{`WeatherApp 🖋️`}</div>
       <p className={styles.paragraph}>A Website for Users to forecast the weather in following days. API fetch from The Hong Kong Observatory.
