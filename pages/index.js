@@ -41,11 +41,11 @@ export default function Home() {
           <div className={styles.bodyBottom}>
             <div className={styles.techStack}>Tech Stack</div>
             <div className={styles.techStackLogoList}>
-              <Image src={htmlpng} className={styles.techStackLogo} title="HTML" />
-              <Image src={csspng} className={styles.techStackLogo} title="CSS" />
-              <Image src={jspng} className={styles.techStackLogo} title="Javascript" />
-              <Image src={reactpng} className={styles.techStackLogo} title="ReactJS" />
-              <Image src={nextjspng} className={styles.techStackLogo} title="NextJS" />
+              <Image src={htmlpng} className={styles.techStackLogo} alt='html' title="HTML" />
+              <Image src={csspng} className={styles.techStackLogo} alt='CSS' title="CSS" />
+              <Image src={jspng} className={styles.techStackLogo} alt='Javscript' title="Javascript" />
+              <Image src={reactpng} className={styles.techStackLogo} alt='ReactJS' title="ReactJS" />
+              <Image src={nextjspng} className={styles.techStackLogo} alt='NextJS' title="NextJS" />
             </div>
           </div>
         </div>
