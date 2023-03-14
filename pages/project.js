@@ -43,7 +43,7 @@ export default function Project() {
     <div className={styles.project}>
      <a href='https://fung673.github.io/weatherapp/' target="_blank"><Image src={weatherpng} alt='todolist' width={500} height='fill' /></a>
      <div className={styles.projectText}>
-      <div className={styles.Topic}>{`WeatherApp 🖋️`}</div>
+      <div className={styles.Topic}>{`WeatherApp ☔`}</div>
       <p className={styles.paragraph}>A Website for Users to forecast the weather in following days. API fetch from The Hong Kong Observatory.
       </p>
       <Image src={reactpng} alt='NextJs' className={styles.techStackLogo} title="NextJS" />
