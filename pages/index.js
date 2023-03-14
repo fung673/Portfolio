@@ -7,6 +7,7 @@ import csspng from '../public/csspng.png'
 import jspng from '../public/jspng.png'
 import reactpng from '../public/reactpng.png'
 import nextjspng from '../public/nextjspng.png'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -19,9 +20,9 @@ export default function Home() {
         <div className={styles.topbar}>
           <div className={styles.topbarLeft}>Alex.dev</div>
           <div className={styles.topbarRight}>
-            <div>Home</div>
-            <div>Projects</div>
-            <div>Contact</div>
+            <Link href='/'>Home</Link>
+            <Link href='/project'>Projects</Link>
+            <a>Contact</a>
           </div>
         </div>
         <div className={styles.body}>
