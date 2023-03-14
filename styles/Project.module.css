@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.main {
+ overflow: hidden
+}
+
+.body {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-family: 'Pacifico';
+ font-size: 2rem;
+ font-weight: 300;
+}
+
+.topbar {
+ margin: 20px 5px;
+ height: 50px;
+ display: flex;
+ width: 95%;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.topbarLeft {
+ font-family: 'Gothic A1';
+ font-size: 1.8rem;
+ font-weight: bold;
+}
+
+.topbarRight {
+ width: 15%;
+ display: flex;
+ font-family: 'Roboto';
+ font-size: 1rem;
+ font-weight: bold;
+ justify-content: space-evenly;
+}
+
+
+.projects {
+ display: flex;
+ flex-direction: column;
+}
+
+.project {
+ margin: 10px 0px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.projectText {
+ width: 30%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-family: 'Gothic A1';
+ font-size: 3rem;
+ font-weight: bold;
+}
+
+.Topic {
+ color: rgb(0, 79, 197);
+ font-size: 1.8rem;
+}
+
+.paragraph {
+ display: flex;
+ width: 35%;
+ font-size: 1rem;
+ font-family: 'Roboto';
+ font-weight: 300;
+ color: rgb(27, 27, 27);
+ line-height: 1.6;
+ text-align: center;
+}
+
+.techStackLogo {
+ height: 50px;
+ width: auto;
+ margin: 10px 30px;
+}
+
+.project img {
+ border-radius: 5px;
+}
