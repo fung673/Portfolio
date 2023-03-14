@@ -33,9 +33,9 @@ export default function Home() {
             <ul className={styles.bodyTopRight}>
               <li>🌍  Based in Hong Kong</li>
               <li className={styles.git}>🖥️  Check my Github at <a href='https://github.com/fung673?tab=repositories'><Image src={img} className={styles.logo} alt='github' /></a></li>
-              <li>✉️  You can contact me at <a href='alexfung1234@gmail.com' className={styles.email}>here</a></li>
-              <li>🧠  I'm learning backend knowledge</li>
-              <li>🤝  I'm open to collaborating on Interesting Project</li>
+              <li>{`✉️  You can contact me at`} <a href='alexfung1234@gmail.com' className={styles.email}>here</a></li>
+              <li>{`🧠  I'm learning backend knowledge`}</li>
+              <li>{`🤝  I'm open to collaborating on Interesting Project`}</li>
             </ul>
           </div>
           <div className={styles.bodyBottom}>
