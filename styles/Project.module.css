@@ -43,6 +43,10 @@
 }
 
 
+.projectpageTitle {
+ font-size: 2vw;
+}
+
 .projects {
  margin-top: 50px;
  display: flex;
@@ -105,4 +109,34 @@
 .projectpng {
  width: 50vw;
  height: auto;
+}
+
+
+@media screen and (max-width: 450px) {
+
+ .topbarRight {
+  border: 2px solid yellow;
+  width: 55%;
+  display: flex;
+  font-family: 'Roboto';
+  font-size: 1vw;
+  font-weight: bold;
+  justify-content: space-evenly;
+ }
+
+ .logo {
+  margin-left: 5px;
+  width: 3vw;
+  height: auto;
+ }
+
+ .body {
+  border: 2px solid red;
+  margin-top: 0px;
+ }
+
+ .bodyBottom {
+  margin-top: 0px;
+
+ }
 }

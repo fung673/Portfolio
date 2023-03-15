@@ -18,7 +18,7 @@ export default function Project() {
    </div>
   </div>
   <div className={styles.body}>
-   <h3>{`I made these websites 👇`}</h3>
+   <h3 className={styles.projectpageTitle}>{`I made these websites 👇`}</h3>
    <div className={styles.projects}>
     <div className={styles.project}>
      <a href='https://nextjs-bookshop.vercel.app/ ' target="_blank" className={styles.projectDisplay}><Image src={bookshopimg} alt='bookshop' className={styles.projectpng} /></a>
