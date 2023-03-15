@@ -173,6 +173,24 @@
     margin-top: 0px;
   }
 
+  .title {
+    font-size: 6vw;
+  }
+
+  .paragraph {
+    font-size: 3vw;
+  }
+
+  .bodyTopLeft {
+    width: 45%;
+  }
+
+  .bodyTopRight {
+    width: 45%;
+    height: 30vh;
+    font-size: 3vw;
+  }
+
   .bodyBottom {
     margin-top: 0px;
 
