@@ -3,9 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
-.main {
- overflow: hidden
-}
+.main {}
 
 .body {
  display: flex;
@@ -18,7 +16,7 @@
 }
 
 .topbar {
- margin: 20px 5px;
+ margin: 20px 20px;
  height: 50px;
  display: flex;
  width: 95%;
@@ -27,16 +25,19 @@
 }
 
 .topbarLeft {
+ display: flex;
+ justify-content: center;
+ width: 10%;
  font-family: 'Gothic A1';
- font-size: 1.8rem;
+ font-size: 1.5vw;
  font-weight: bold;
 }
 
 .topbarRight {
- width: 15%;
+ width: 32%;
  display: flex;
  font-family: 'Roboto';
- font-size: 1rem;
+ font-size: 1vw;
  font-weight: bold;
  justify-content: space-evenly;
 }
@@ -57,7 +58,7 @@
 }
 
 .projectText {
- width: 35%;
+ width: 45%;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -69,14 +70,14 @@
 
 .Topic {
  color: rgb(0, 79, 197);
- font-size: 1.8rem;
+ font-size: 2vw;
 }
 
 .paragraph {
  margin: 10px 0px;
  display: flex;
- width: 35%;
- font-size: 1rem;
+ width: 45%;
+ font-size: 1vw;
  font-family: 'Roboto';
  font-weight: 300;
  color: rgb(27, 27, 27);
@@ -84,12 +85,24 @@
  text-align: center;
 }
 
+.projectDisplay {
+ width: 45%;
+ display: flex;
+ justify-content: center;
+
+}
+
 .techStackLogo {
- height: 50px;
+ height: 3.8vh;
  width: auto;
  margin: 10px 30px;
 }
 
 .project img {
- border-radius: 5px;
+ border-radius: 15px;
+}
+
+.projectpng {
+ width: 50vw;
+ height: auto;
 }
