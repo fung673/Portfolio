@@ -150,11 +150,15 @@
 
 
 @media screen and (max-width: 450px) {
+  .topbarLeft {
+    font-size: 3.5vw;
+  }
+
   .topbarRight {
     width: 55%;
     display: flex;
     font-family: 'Roboto';
-    font-size: 1vw;
+    font-size: 3vw;
     font-weight: bold;
     justify-content: space-evenly;
   }
