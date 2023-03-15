@@ -141,16 +141,28 @@
   margin-top: 0px;
  }
 
+ .project {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+ }
+
  .projectDisplay {
   width: 48%;
  }
 
+ .projectpng {
+  width: 80vw;
+  height: auto;
+ }
+
  .projectText {
-  width: 48%;
+  width: 95%;
  }
 
  .paragraph {
   width: 90%;
+  font-size: 3vw;
  }
 
  .bodyBottom {

@@ -6,6 +6,7 @@ import nextjspng from '../public/nextjspng.png'
 import todolist from '../public/todolist.png'
 import weatherpng from '../public/weather.png'
 import reactpng from '../public/reactpng.png'
+import { useEffect, useState } from 'react'
 
 export default function Project() {
  return <div className={styles.main}>
@@ -30,16 +31,22 @@ export default function Project() {
       <Image src={nextjspng} alt='NextJs' className={styles.techStackLogo} title="NextJS" />
      </div>
     </div>
-    <div className={styles.project}>
+
+
+
+    <div className={styles.project}>     <a href='https://nextjs-todolist-seven.vercel.app/ ' target="_blank" className={styles.projectDisplay}>
+     <Image src={todolist} alt='todolist' className={styles.projectpng} /></a>
      <div className={styles.projectText}>
       <div className={styles.Topic}>{`TodoList 🖋️`}</div>
       <p className={styles.paragraph}>A TodoList to Organize Your Work & Life which Provides simple function such as Add Task and Done.
       </p>
       <Image src={nextjspng} alt='NextJs' className={styles.techStackLogo} title="NextJS" />
      </div>
-     <a href='https://nextjs-todolist-seven.vercel.app/ ' target="_blank" className={styles.projectDisplay}><Image src={todolist} alt='todolist' className={styles.projectpng} /></a>
 
     </div>
+
+
+
     <div className={styles.project}>
      <a href='https://fung673.github.io/weatherapp/' target="_blank" className={styles.projectDisplay}><Image src={weatherpng} alt='todolist' className={styles.projectpng} /></a>
      <div className={styles.projectText}>
