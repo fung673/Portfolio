@@ -115,7 +115,6 @@
 @media screen and (max-width: 450px) {
 
  .topbarRight {
-  border: 2px solid yellow;
   width: 55%;
   display: flex;
   font-family: 'Roboto';
@@ -131,7 +130,6 @@
  }
 
  .body {
-  border: 2px solid red;
   margin-top: 0px;
  }
 
