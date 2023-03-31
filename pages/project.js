@@ -15,7 +15,7 @@ export default function Project() {
    <div className={styles.topbarRight}>
     <Link href='/'>Home</Link>
     <a>Projects</a>
-    <a>Contact</a>
+    <a href='mailto:alexfung1234@gmail.com'>Contact</a>
    </div>
   </div>
   <div className={styles.body}>
