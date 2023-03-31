@@ -22,7 +22,7 @@ export default function Home() {
           <div className={styles.topbarRight}>
             <Link href='/'>Home</Link>
             <Link href='/project'>Projects</Link>
-            <a>Contact</a>
+            <a href='mailto:alexfung1234@gmail.com'>Contact</a>
           </div>
         </div>
         <div className={styles.body}>

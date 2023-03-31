@@ -113,6 +113,9 @@
 
 
 @media screen and (max-width: 450px) {
+ .Topic {
+  font-size: 5vw;
+ }
 
  .topbarLeft {
   font-size: 3.5vw;
